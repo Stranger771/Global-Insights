@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+}
+body{
+    background-color: #2b2923;
+    background-repeat: no-repeat;
+    color: #fafafa;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(244, 206, 20);
+    cursor: pointer;
+    color: #ffff;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+.location-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 70%;
+    padding-left: 100px;
+    letter-spacing: 5px;
+    line-height: 2.5rem;
+}
+.location-pointer{
+    position: relative;
+    top: 36px;
+    height: 150px;
+    width: 100px;
+}
+.globe{
+    height: 350px;
+    width: 350px;
+}
+.intro-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchBar{
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search-container input{
+    height: fit-content;
+    width: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.search-icon{
+    width: 60px;
+    height: 40px;
+    background-color: #fafafa;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.newElements{
+    background-color: #F7F7F7;
+    border: 1px solid #dedfe0;
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    max-height: 150px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 10px;
+}
+.newElements a{
+    text-decoration: none;
+    color: #666;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e1f1ff;
+}
