@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="../Images/favicon.ico" />
+
+    <!-- ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito&family=Oswald:wght@200..700&family=Protest+Guerrilla&family=Protest+Revolution&family=Protest+Riot&family=Raleway:ital,wght@0,100..900;1,100..900&family=Single+Day&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <!-- ===== -->
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="intro-img">
+          <img
+            class="location-pointer"
+            src="../Images/pngwing.com (1).png"
+            alt=""
+          />
+          <img class="globe" src="../Images/pngwing.com.png" alt="" />
+          <div class="searchBar">
+            <div class="search-container">
+              <input class="search" type="text" placeholder="search..." />
+              <div class="newElements"></div>
+            </div>
+            <div class="search-icon">
+              <img src="../Images/search.png" alt="" />
+            </div>
+          </div>
+          <a class="btn nav-btn fas fa-bars" href="../index.html">Home</a>
+        </div>
+        <div class="location-container"></div>
+      </div>
+      <div id="map"></div>
+    </div>
+    <button class="toggle-btn nav-btn fas fa-bars" id="toggleSidebar"></button>
+    <script src="../functions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

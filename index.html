@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Global Insights</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="Images/favicon.ico" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito&family=Oswald:wght@200..700&family=Protest+Guerrilla&family=Protest+Revolution&family=Protest+Riot&family=Raleway:ital,wght@0,100..900;1,100..900&family=Single+Day&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="toggleButton nav-btn fas fa-bars"></div>
+    <nav id="nav-bar">
+      <div class="bar-container">
+        <img src="Images/pngwing.com (1).png" alt="" />
+        <ul>
+          <li><a href="#aboutUs">About Us</a></li>
+          <li><a href="#intro">Description</a></li>
+          <li><a href="#location">Find Your Location</a></li>
+        </ul>
+        <div class="searchBar">
+          <div class="search-container">
+            <input class="search" type="text" placeholder="search..." />
+            <div class="newElements"></div>
+          </div>
+          <img class="search-img" src="Images/search.png" alt="" />
+        </div>
+      </div>
+    </nav>
+    <section id="intro">
+      <div class="intro-description">
+        <h1><span>Find</span> <span>Your</span> <span>Place</span></h1>
+        <p>
+          Global Insights provides an incredible service to the indiviuals to
+          explore their location as well as provides a great deal of information
+          about their realm.
+        </p>
+        <h1 class="style-second-heading">
+          <span>Explore</span> <span>Global</span> <span>Realms</span>
+        </h1>
+      </div>
+      <p class="unveil">With one Click unveil the information.</p>
+      <div class="intro-img">
+        <img class="location-pointer" src="Images/pngwing.com (1).png" alt="" />
+        <img class="globe" src="Images/pngwing.com.png" alt="" />
+      </div>
+    </section>
+    <section id="cipher" class="section">
+      <div class="line"></div>
+      <div class="cipher-container">
+        <h1>Secure & Private</h1>
+        <p>Your Privacy is Our Top Priority</p>
+        <p>
+          At Global Insights, we prioritize the security and privacy of our
+          users. Rest assured that we never store any user location information.
+          Your data remains confidential, ensuring a secure and private
+          experience for every user.
+        </p>
+        <img src="Images/pngwing.com (2).png" alt="" />
+      </div>
+    </section>
+    <section id="location" class="section">
+      <h1>Click To unveil the information</h1>
+      <button>Unveil</button>
+      <div class="block">
+        <p class="block-description">
+          Our mission is simple yet powerful — to provide a seamless experience
+          for users to discover, explore, and gain insights into their global
+          surroundings. We are committed to offering accurate, up-to-date
+          information while prioritizing user privacy and security
+        </p>
+        <div class="location-container"></div>
+        <div class="otherInfo"></div>
+      </div>
+
+      <div class="digital-clock" onload="getTime()">
+        <h1></h1>
+      </div>
+    </section>
+    <section id="aboutUs" class="section">
+      <div class="aboutUs-container">
+        <h1>About Us</h1>
+        <div class="aboutUs-description">
+          <p>
+            Welcome to Global Insights, where exploration meets information, and
+            curiosity leads to discovery.
+          </p>
+          <p>
+            At Global Insights, we believe in empowering individuals with the
+            knowledge they need to understand and connect with the diverse world
+            around them. Our platform is more than just a location service; it's
+            a gateway to unlocking a wealth of information about countries,
+            cultures, and more.
+          </p>
+          <p>
+            Transparency, accuracy, and user-centricity form the backbone of our
+            values. We are dedicated to maintaining the highest standards in
+            delivering information while respecting the privacy of our users.
+          </p>
+        </div>
+      </div>
+      <h1 class="feed-heading">Check Out Feed Backs for Global Insights</h1>
+      <div class="sliderFeedBack">
+        <button class="sliderBtnBack"><</button>
+
+        <div class="slider"></div>
+        <button class="sliderBtnNext">></button>
+      </div>
+    </section>
+    <div id="notification">
+      <button>X</button>
+      <h2>Quick Tip</h2>
+      <p>Search for other countries on the nevigatiton bar</p>
+    </div>
+
+    <script src="functions.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
